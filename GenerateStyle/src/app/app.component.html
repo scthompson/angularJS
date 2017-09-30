@@ -1,0 +1,16 @@
+<!--The whole content below can be removed with the new code.-->
+<md-toolbar color="primary">
+	<div class="bin">
+		<md-icon><button type="button" md-button (click)="sidenav.open()"><i class="material-icons">menu</i></button></md-icon>
+		<span id="websiteTitle">{{title}}</span>
+	</div>
+</md-toolbar>
+<md-sidenav-container class="sidenav-container">	
+  <md-sidenav #sidenav class="sidenav">
+    <app-menu></app-menu>
+  </md-sidenav>
+
+  <app-home></app-home>
+
+</md-sidenav-container>
+

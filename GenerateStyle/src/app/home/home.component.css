@@ -1,0 +1,25 @@
+.moduleHolder .module img {
+	height:auto;
+	width:100%;
+	max-width:250px;
+}
+.moduleHolder .module {
+	width:30vw;
+	max-width:250px;
+	text-align:center;
+	display:inline-block;
+	margin-left:2%;
+	margin-right:2%;
+	vertical-align:top;
+	background-color:#f2f2f2;
+	border:solid 5px #f2f2f2;
+}
+.moduleHolder .module .moduleText {
+	width:100%;
+}
+.moduleHolder {
+	width:100%;
+	margin:auto;
+	text-align:center;
+	margin-top:50px;
+}

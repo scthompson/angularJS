@@ -1,0 +1,15 @@
+md-grid-list {
+	min-height:calc(100vh - 66px);
+	display:block;
+}
+/deep/ np.mat-grid-tile .mat-figure {
+	display:block !important;	
+}
+
+.contentHead {
+	width:90%;
+	height:95%;
+	vertical-align:middle;
+	background-color:blue;
+	float:right;
+}

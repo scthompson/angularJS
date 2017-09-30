@@ -1,0 +1,13 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+@import url('https://fonts.googleapis.com/css?family=MedievalSharp');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+html, body {
+	margin:0 !important;
+	font-family: 'Lato', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, h7, #websiteTitle {
+	font-family: 'MedievalSharp';
+}

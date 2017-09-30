@@ -1,0 +1,34 @@
+md-toolbar {
+	height:64px !important;
+}
+md-toolbar .bin {
+	width:90%;
+	margin:auto;
+}
+md-toolbar .bin .mat-button {
+	padding:0;
+}
+md-toolbar .bin span {
+	font-size:1.5em;
+	vertical-align: middle;
+}
+md-toolbar.fixed {
+  position: fixed;
+}
+md-toolbar.fixed + * {
+  padding-top: 64px;
+}
+
+
+.sidenav-container {
+  width: 100%;
+  height: calc(100vh - 64px);
+  overflow: hidden;
+}
+
+.content {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}

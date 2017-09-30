@@ -1,0 +1,11 @@
+md-list-item:hover {
+	background-color:WhiteSmoke ;
+}
+md-list {
+	height:calc(100% - 64px)];
+}
+#menuBottom {
+	bottom:0;
+	margin-left:-5px;
+	position:absolute;
+}
