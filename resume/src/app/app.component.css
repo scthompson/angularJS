@@ -1,0 +1,9 @@
+.contactBtn {
+	margin-left:auto; margin-right:0; font-size:20px;
+}
+.contactBtn /deep/ .mat-button-focus-overlay {
+    background-color:transparent;
+}
+svg-icon {
+	vertical-align:sub;
+}

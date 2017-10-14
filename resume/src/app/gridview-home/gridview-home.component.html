@@ -1,9 +1,87 @@
-<md-grid-list cols="4" rowHeight="fit">
-  <md-grid-tile colspan="3" rowspan="3" style="background:lightblue; ">
-    <div class="contentHead">
-    	<div class="content">
-    		Hello
-    	</div>
-    </div>
-  </md-grid-tile>
-</md-grid-list>
+<md-tab-group>
+  <md-tab>
+  <ng-template md-tab-label  color="accent">
+      <md-icon><i class="material-icons">perm_identity</i></md-icon> About
+    </ng-template>
+  	<div class="page-wrapper">
+	  <div class="container">
+	    <div class="mainContent">
+	    	<div class="content">
+	    		<md-card class="webCard skillcard">
+	    			<md-icon>language http</md-icon>
+	    			<md-card-content>
+	    				<h2>Web Experience</h2>
+	    			</md-card-content>
+	    		</md-card>
+	    		<md-card class="androidCard skillcard">
+	    			<md-icon>android</md-icon>
+	    			<md-card-content>
+	    				<h2>Android Experience</h2>
+	    			</md-card-content>
+	    		</md-card>
+	    		<md-card class="testingCard skillcard">
+	    			<md-icon>device_hub devices_other</md-icon>
+	    			<md-card-content>
+	    				<h2>Testing Experience</h2>
+	    			</md-card-content>
+	    		</md-card>
+	    		<md-card class="agileCard skillcard">
+	    			<md-icon>all_inclusive</md-icon>
+	    			<md-card-content>
+	    				<h2>Agile Experience</h2>
+	    			</md-card-content>
+	    		</md-card>
+	    		
+	    		<!-- 
+	    		<md-toolbar>Languages</md-toolbar>
+	    		<md-chip-list>
+				  <md-chip mdTooltip="Expert">HTML5</md-chip>
+				  <md-chip mdTooltip="Intermediate">JavaScript</md-chip>
+				  <md-chip mdTooltip="Intermediate">CSS3</md-chip>
+				  <md-chip mdTooltip="Intermediate">jQuery</md-chip>
+				  <md-chip mdTooltip="Intermediate">PHP</md-chip>
+				  <md-chip mdTooltip="Intermediate">Ajax</md-chip>
+				  <md-chip mdTooltip="Beginer">AngularJs</md-chip>
+				  <md-chip mdTooltip="Beginer">SQL Languages</md-chip>
+				  <md-chip mdTooltip="Intermediate">Python</md-chip>
+				  <md-chip mdTooltip="Intermediate">R</md-chip>
+				  <md-chip mdTooltip="Beginer">Java</md-chip>
+				  <md-chip mdTooltip="Beginer">C++</md-chip>
+				</md-chip-list>
+				
+				<md-toolbar>Tools</md-toolbar>
+	    		<md-chip-list>
+				  <md-chip mdTooltip="Web Applications">WordPress</md-chip>
+				  <md-chip mdTooltip="2 years of experience working with Agile">Agile Development Methods</md-chip>
+				   <md-chip mdTooltip="Agile Development Management Tools">Confluence, Jira, and BitBucket</md-chip>
+				  <md-chip mdTooltip="A continuous testing enviornment">Jenkins CI</md-chip>
+				  <md-chip mdTooltip="Used for Developing Android Applications">Android Studio</md-chip>
+				  <md-chip mdTooltip="Used for Developing Selenium Tests">Eclipse</md-chip>
+				  <md-chip mdTooltip="Intermediate Linux users">Linux</md-chip>
+				  <md-chip mdTooltip="Web development tool">Microsoft Expression Web</md-chip>
+				  <md-chip mdTooltip="Web development tool">Atom</md-chip>
+				  <md-chip mdTooltip="Web app for sending data to endpoints from APIs">Zapier</md-chip>
+				  <md-chip mdTooltip="Basic editors">Vim and Emacs</md-chip>
+				  <md-chip mdTooltip="C++ development">Visual Studio</md-chip>
+				  <md-chip mdTooltip="R development">RStudio</md-chip>
+				  <md-chip mdTooltip="SQL development">SQL Developer</md-chip>
+				</md-chip-list> -->
+	    	</div>
+	    </div>
+	    
+	  </div>
+	</div>
+  </md-tab>
+  <md-tab>
+  	  <ng-template md-tab-label>
+      <md-icon><i class="material-icons">work</i></md-icon> Experience
+    </ng-template>
+    Content 2
+  </md-tab>
+   <md-tab>
+  	  <ng-template md-tab-label>
+      <md-icon><i class="material-icons">file_download</i></md-icon> Resume
+    </ng-template>
+    Content 2
+  </md-tab>
+</md-tab-group>

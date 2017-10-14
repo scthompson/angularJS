@@ -7,6 +7,14 @@ import {MatSidenavModule} from '@angular/material';
 import {MatCardModule} from '@angular/material';
 import { MatListModule } from '@angular/material';
 import {MatGridListModule} from '@angular/material';
+import {MatTabsModule} from '@angular/material';
+import {MatDialogModule} from '@angular/material';
+import {MatMenuModule} from '@angular/material';
+import {MatIconModule} from '@angular/material';
+import {MatExpansionModule} from '@angular/material';
+import {MatChipsModule} from '@angular/material';
+import {MatTooltipModule} from '@angular/material';
+
 
 
 
@@ -20,7 +28,14 @@ import {MatGridListModule} from '@angular/material';
     MatSidenavModule,
     MatCardModule,
     MatListModule,
-    MatGridListModule
+    MatGridListModule,
+    MatTabsModule,
+    MatDialogModule,
+    MatMenuModule,
+    MatIconModule,
+    MatExpansionModule,
+    MatChipsModule,
+    MatTooltipModule
   ],
   exports: [
     CommonModule,
@@ -31,7 +46,14 @@ import {MatGridListModule} from '@angular/material';
     MatSidenavModule,
     MatCardModule,
     MatListModule,
-    MatGridListModule
+    MatGridListModule,
+    MatTabsModule,
+    MatDialogModule,
+    MatMenuModule,
+    MatIconModule,
+    MatExpansionModule,
+    MatChipsModule,
+    MatTooltipModule
   ],
   declarations: []
 })

@@ -1,3 +1,15 @@
-<md-toolbar color="primary">Hello</md-toolbar>
+<md-toolbar color="primary">
+	<div>
+		Scott Thompson
+	</div>
+	<div class="contactBtn">
+		<button md-button [mdMenuTriggerFor]="menu">Contact</button>
+		<md-menu #menu="mdMenu">
+  			<button md-menu-item><svg-icon src="assets/linkedin-box.svg"></svg-icon> LinkedIn</button>
+  			<button md-menu-item><md-icon>contact_mail</md-icon> sct9107@gmail.com</button>
+		</md-menu>
+	</div>
+</md-toolbar>
 <app-gridview-home></app-gridview-home>
+
 

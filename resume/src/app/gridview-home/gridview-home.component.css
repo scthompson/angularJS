@@ -1,15 +1,103 @@
-md-grid-list {
-	min-height:calc(100vh - 66px);
-	display:block;
-}
-/deep/ np.mat-grid-tile .mat-figure {
-	display:block !important;	
+.page-wrapper {
+  padding: 5px;
+  box-sizing: content-box !important;
+  background-color:#f2f2f2;
+  padding-bottom:200px;
 }
 
-.contentHead {
+div.container {
+  display: flex;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.mainContent {
+  flex: 1 1 5em;
+  display: flex;
+  flex-direction: row;
+  margin-left: 10px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+.mainContent .content {
 	width:90%;
-	height:95%;
-	vertical-align:middle;
-	background-color:blue;
-	float:right;
+	height:100%;
+	margin:auto;
+	color: black;
+	background-color:white;
+	padding:10px;
+}
+.sideContent {
+	flex: .25 .25 5em;
+  display: flex;
+  flex-direction: row;
+  background-color: #03a9f4;
+  margin-left: 10px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+div.container > div:first-child {
+  margin-left: 0;
+}
+.wordcloudDiv {
+	width:100%;
+	text-align:center;
+	margin:auto;
+	height:500px;
+	overflow:hidden;
+}
+.wordcloud {
+	margin:auto;
+	width:auto;
+	height:100%;
+	
+}
+.overlapimg {
+	position:absolute;
+	height:30%;
+	vertical-align:bottom;
+	left:15%;
+	border-radius: 50%;
+}
+.content md-toolbar {
+	background-color:inherit;
+}
+.content md-expansion-panel {
+	width:100%;
+}
+.content md-list-item {
+	padding:10px;
+}
+.content md-card {
+	max-width:15%;
+	text-align:center;
+	display:inline-block;
+	margin:2%;
+}
+.skillcard {
+	color:white;
+}
+.skillcard md-icon.mat-icon.material-icons {
+	width:100% !important;
+	height:70px;
+	text-align:center;
+	font-size:50px;
+	padding:0;
+	margin:0;
+}
+.testingCard {
+	background-color:#ef3d3a;
+}
+.testingCard img {
+	height:48px;
+}
+.webCard {
+	background-color:#1aa3ff;
+}
+.androidCard {
+	background-color: #a4c639;
+}
+.agileCard {
+	background-color: #ffcc00
 }
